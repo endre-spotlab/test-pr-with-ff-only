@@ -21,4 +21,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Always run
-        run: echo "This job is used to prevent the workflow to fail when all other
+        run: echo "This job is used to prevent the workflow to fail when all other other jobs are skipped."
